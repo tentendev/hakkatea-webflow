@@ -1,0 +1,1568 @@
+.mediaViewInfo {
+	--web-view-name: game;
+	--web-view-id: game;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: game;
+}
+
+body {
+  cursor: url('cursor-image.png'), auto;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#game {
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: game;
+	--web-view-id: game;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+
+#logo1 {
+	position: absolute;
+	width: 400px;
+	left: 50px;
+	bottom: 50px;
+	overflow: visible;
+}
+#logo2 {
+	position: absolute;
+	width: 400px;
+	right: 50px;
+	bottom: 50px;
+	overflow: visible;
+}
+#aaa {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#aab {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#aac {
+	position: absolute;
+	width: 1460px;
+	height: 877px;
+	left: 418px;
+	top: 157px;
+	overflow: visible;
+}
+#aad {
+	position: absolute;
+	width: 1084px;
+	height: 500px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#aae {
+	position: absolute;
+	width: 585px;
+	height: 190px;
+	left: 250px;
+	top: 534px;
+	overflow: visible;
+}
+#aaf {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 1260px;
+	top: 677px;
+	overflow: visible;
+}
+#aag {
+	position: absolute;
+	width: 585px;
+	height: 190px;
+	left: 250px;
+	top: 534px;
+	overflow: visible;
+}
+#aah {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 1260px;
+	top: 677px;
+	overflow: visible;
+}
+#aai {
+	position: absolute;
+	width: 1920px;
+	height: 564px;
+	left: 0px;
+	top: 516px;
+	display: none;
+	overflow: visible;
+}
+#aaj {
+	position: absolute;
+	width: 1920px;
+	height: 564px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#aak {
+	position: absolute;
+	width: 691px;
+	height: 260px;
+	left: 656px;
+	top: 152px;
+	overflow: visible;
+}
+#aal {
+	position: absolute;
+	width: 1460.842px;
+	height: 440.538px;
+	left: 170px;
+	top: 432px;
+	display: none;
+	overflow: visible;
+}
+#aam {
+	position: absolute;
+	width: 140px;
+	height: 110px;
+	left: 628px;
+	top: 283px;
+	overflow: visible;
+}
+#aan {
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	left: 882px;
+	top: 263px;
+	overflow: visible;
+}
+#aao {
+	position: absolute;
+	width: 160px;
+	height: 221.538px;
+	left: 221px;
+	top: 30px;
+	overflow: visible;
+}
+#aap {
+	position: absolute;
+	width: 160px;
+	height: 221.538px;
+	left: 62px;
+	top: 80px;
+	overflow: visible;
+}
+#aaq {
+	position: absolute;
+	width: 160px;
+	height: 221.538px;
+	left: 173px;
+	top: 191px;
+	overflow: visible;
+}
+#aar {
+	position: absolute;
+	width: 160px;
+	height: 221.538px;
+	left: 333px;
+	top: 173px;
+	overflow: visible;
+}
+#aas {
+	position: absolute;
+	width: 160px;
+	height: 222px;
+	left: 0px;
+	top: 203px;
+	overflow: visible;
+}
+#aat {
+	position: absolute;
+	width: 200px;
+	height: 216px;
+	left: 413px;
+	top: 0px;
+	overflow: visible;
+}
+#aau {
+	position: absolute;
+	width: 200px;
+	height: 110.345px;
+	left: 631px;
+	top: 108px;
+	overflow: visible;
+}
+#aav {
+	position: absolute;
+	width: 250px;
+	height: 139.706px;
+	left: 812px;
+	top: 79.294px;
+	overflow: visible;
+}
+#aaw {
+	position: absolute;
+	width: 175px;
+	height: 179.487px;
+	left: 1089.5px;
+	top: 39.513px;
+	overflow: visible;
+}
+#aax {
+	position: absolute;
+	width: 2556px;
+	height: 1179px;
+	left: -630px;
+	top: -432px;
+	display: none;
+	overflow: visible;
+}
+#aay {
+	opacity: 0.663;
+	position: absolute;
+	width: 2556px;
+	height: 1179px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#aaz {
+	position: absolute;
+	width: 485px;
+	height: 160px;
+	left: 1708px;
+	top: 344px;
+	overflow: visible;
+}
+#aba {
+	position: absolute;
+	width: 210px;
+	height: 214px;
+	left: 2076px;
+	top: 794px;
+	overflow: visible;
+}
+#abb {
+	position: absolute;
+	width: 214px;
+	height: 218px;
+	left: 2072px;
+	top: 790px;
+	overflow: visible;
+}
+#abc {
+	position: absolute;
+	width: 236.842px;
+	height: 250px;
+	left: 1224px;
+	top: 190.538px;
+	overflow: visible;
+}
+#abd {
+	position: absolute;
+	width: 1460.842px;
+	height: 440.538px;
+	left: 170px;
+	top: 432px;
+	display: none;
+	overflow: visible;
+}
+#abe {
+	position: absolute;
+	width: 140px;
+	height: 110px;
+	left: 628px;
+	top: 283px;
+	overflow: visible;
+}
+#abf {
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	left: 882px;
+	top: 263px;
+	overflow: visible;
+}
+#abg {
+	position: absolute;
+	width: 160px;
+	height: 221.538px;
+	left: 221px;
+	top: 30px;
+	overflow: visible;
+}
+#abh {
+	position: absolute;
+	width: 160px;
+	height: 221.538px;
+	left: 62px;
+	top: 80px;
+	overflow: visible;
+}
+#abi {
+	position: absolute;
+	width: 160px;
+	height: 221.538px;
+	left: 173px;
+	top: 191px;
+	overflow: visible;
+}
+#abj {
+	position: absolute;
+	width: 160px;
+	height: 221.538px;
+	left: 333px;
+	top: 173px;
+	overflow: visible;
+}
+#abk {
+	position: absolute;
+	width: 160px;
+	height: 222px;
+	left: 0px;
+	top: 203px;
+	overflow: visible;
+}
+#abl {
+	position: absolute;
+	width: 236.842px;
+	height: 250px;
+	left: 1224px;
+	top: 190.538px;
+	overflow: visible;
+}
+#abm {
+	position: absolute;
+	width: 2736px;
+	height: 1262px;
+	left: -445px;
+	top: -430px;
+	display: none;
+	overflow: visible;
+}
+#abn {
+	opacity: 0.5;
+	position: absolute;
+	width: 2736px;
+	height: 1262px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#abo {
+	position: absolute;
+	width: 485px;
+	height: 160px;
+	left: 1071px;
+	top: 255px;
+	overflow: visible;
+}
+#abp {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	left: 861px;
+	top: 632px;
+	overflow: visible;
+}
+#abq {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	left: 1087px;
+	top: 632px;
+	overflow: visible;
+}
+#abr {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	left: 1313px;
+	top: 632px;
+	overflow: visible;
+}
+#abs {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	left: 1539px;
+	top: 632px;
+	overflow: visible;
+}
+#abt {
+	position: absolute;
+	width: 210px;
+	height: 214px;
+	left: 1727px;
+	top: 537px;
+	overflow: visible;
+}
+#abu {
+	position: absolute;
+	width: 214px;
+	height: 218px;
+	left: 1727px;
+	top: 536px;
+	overflow: visible;
+}
+#abv {
+	position: absolute;
+	width: 200px;
+	height: 216px;
+	left: 413px;
+	top: 0px;
+	overflow: visible;
+}
+#abw {
+	position: absolute;
+	width: 200px;
+	height: 110.345px;
+	left: 631px;
+	top: 108px;
+	overflow: visible;
+}
+#abx {
+	position: absolute;
+	width: 250px;
+	height: 139.706px;
+	left: 850px;
+	top: 79.294px;
+	overflow: visible;
+}
+#aby {
+	position: absolute;
+	width: 175px;
+	height: 179.487px;
+	left: 1110px;
+	top: 39.513px;
+	overflow: visible;
+}
+#abz {
+	position: absolute;
+	width: 1460.842px;
+	height: 440.538px;
+	left: 170px;
+	top: 432px;
+	display: none;
+	overflow: visible;
+}
+#aca {
+	position: absolute;
+	width: 140px;
+	height: 110px;
+	left: 628px;
+	top: 283px;
+	overflow: visible;
+}
+#acb {
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	left: 882px;
+	top: 263px;
+	overflow: visible;
+}
+#acc {
+	position: absolute;
+	width: 200px;
+	height: 216px;
+	left: 413px;
+	top: 0px;
+	overflow: visible;
+}
+#acd {
+	position: absolute;
+	width: 200px;
+	height: 110.345px;
+	left: 631px;
+	top: 108px;
+	overflow: visible;
+}
+#ace {
+	position: absolute;
+	width: 250px;
+	height: 139.706px;
+	left: 812px;
+	top: 79.294px;
+	overflow: visible;
+}
+#acf {
+	position: absolute;
+	width: 175px;
+	height: 179.487px;
+	left: 1089.5px;
+	top: 39.513px;
+	overflow: visible;
+}
+#acg {
+	position: absolute;
+	width: 236.842px;
+	height: 250px;
+	left: 1224px;
+	top: 190.538px;
+	overflow: visible;
+}
+#ach {
+	position: absolute;
+	width: 2556px;
+	height: 1179px;
+	left: -329px;
+	top: -432px;
+	display: none;
+	overflow: visible;
+}
+#aci {
+	opacity: 0.489;
+	position: absolute;
+	width: 2556px;
+	height: 1179px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#acj {
+	position: absolute;
+	width: 485px;
+	height: 160px;
+	left: 334px;
+	top: 232px;
+	overflow: visible;
+}
+#ack {
+	position: absolute;
+	width: 250px;
+	height: 75px;
+	left: 833px;
+	top: 645px;
+	overflow: visible;
+}
+#acl {
+	position: absolute;
+	width: 250px;
+	height: 75px;
+	left: 471px;
+	top: 840px;
+	overflow: visible;
+}
+#acm {
+	position: absolute;
+	width: 250px;
+	height: 75px;
+	left: 239px;
+	top: 405px;
+	overflow: visible;
+}
+#acn {
+	position: absolute;
+	width: 250px;
+	height: 75px;
+	left: 731px;
+	top: 455px;
+	overflow: visible;
+}
+#aco {
+	position: absolute;
+	width: 210px;
+	height: 214px;
+	left: 771px;
+	top: 833px;
+	overflow: visible;
+}
+#acp {
+	position: absolute;
+	width: 214px;
+	height: 218px;
+	left: 771px;
+	top: 833px;
+	overflow: visible;
+}
+#acq {
+	position: absolute;
+	width: 250px;
+	height: 75px;
+	left: 159px;
+	top: 582px;
+	overflow: visible;
+}
+#acr {
+	position: absolute;
+	width: 160px;
+	height: 221.538px;
+	left: 221px;
+	top: 30px;
+	overflow: visible;
+}
+#acs {
+	position: absolute;
+	width: 160px;
+	height: 221.538px;
+	left: 333px;
+	top: 173px;
+	overflow: visible;
+}
+#act {
+	position: absolute;
+	width: 160px;
+	height: 221.538px;
+	left: 173px;
+	top: 191px;
+	overflow: visible;
+}
+#acu {
+	position: absolute;
+	width: 160px;
+	height: 221.538px;
+	left: 62px;
+	top: 80px;
+	overflow: visible;
+}
+#acv {
+	position: absolute;
+	width: 160px;
+	height: 222px;
+	left: 0px;
+	top: 203px;
+	overflow: visible;
+}
+#acw {
+	position: absolute;
+	width: 1799px;
+	height: 908px;
+	left: 49px;
+	top: 61px;
+	display: none;
+	overflow: visible;
+}
+#acx {
+	position: absolute;
+	width: 590px;
+	height: 730px;
+	left: 24px;
+	top: 178px;
+	overflow: visible;
+}
+#acy {
+	position: absolute;
+	width: 1175px;
+	height: 680px;
+	left: 624px;
+	top: 60px;
+	overflow: visible;
+}
+#acz {
+	position: absolute;
+	width: 590px;
+	height: 730px;
+	left: 24px;
+	top: 178px;
+	overflow: visible;
+}
+#ada {
+	position: absolute;
+	width: 1175px;
+	height: 680px;
+	left: 624px;
+	top: 60px;
+	overflow: visible;
+}
+#adb {
+	position: absolute;
+	width: 590px;
+	height: 730px;
+	left: 24px;
+	top: 178px;
+	overflow: visible;
+}
+#adc {
+	position: absolute;
+	width: 1185px;
+	height: 680px;
+	left: 614px;
+	top: 60px;
+	overflow: visible;
+}
+#add {
+	position: absolute;
+	width: 590px;
+	height: 730px;
+	left: 24px;
+	top: 178px;
+	overflow: visible;
+}
+#ade {
+	position: absolute;
+	width: 1175px;
+	height: 540px;
+	left: 624px;
+	top: 178px;
+	overflow: visible;
+}
+#adf {
+	position: absolute;
+	width: 590px;
+	height: 730px;
+	left: 24px;
+	top: 178px;
+	overflow: visible;
+}
+#adg {
+	position: absolute;
+	width: 1175px;
+	height: 680px;
+	left: 624px;
+	top: 60px;
+	overflow: visible;
+}
+#adh {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#adi {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#adi-309 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 330px;
+	top: 60px;
+	overflow: visible;
+}
+#adi-409 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 530px;
+	top: 60px;
+	overflow: visible;
+}
+#adj {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 1580px;
+	top: 620px;
+	overflow: visible;
+}
+#adk {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 1580px;
+	top: 620px;
+	overflow: visible;
+}
+#adl {
+	position: absolute;
+	width: 1584px;
+	height: 801.627px;
+	left: 49px;
+	top: 63px;
+	display: none;
+	overflow: visible;
+}
+#adm {
+	position: absolute;
+	width: 600px;
+	height: 649.254px;
+	left: 164px;
+	top: 152.373px;
+	overflow: visible;
+}
+#adn {
+	position: absolute;
+	width: 800px;
+	height: 367.66px;
+	left: 784px;
+	top: 293.17px;
+	overflow: visible;
+}
+#ado {
+	position: absolute;
+	width: 600px;
+	height: 331.034px;
+	left: 184px;
+	top: 311.483px;
+	overflow: visible;
+}
+#adp {
+	position: absolute;
+	width: 800px;
+	height: 367.66px;
+	left: 784px;
+	top: 293.17px;
+	overflow: visible;
+}
+#adq {
+	position: absolute;
+	width: 600px;
+	height: 333.75px;
+	left: 164px;
+	top: 310.125px;
+	overflow: visible;
+}
+#adr {
+	position: absolute;
+	width: 800px;
+	height: 367.66px;
+	left: 784px;
+	top: 293.17px;
+	overflow: visible;
+}
+#ads {
+	position: absolute;
+	width: 600px;
+	height: 620.339px;
+	left: 164px;
+	top: 166.831px;
+	overflow: visible;
+}
+#adt {
+	position: absolute;
+	width: 800px;
+	height: 367.66px;
+	left: 784px;
+	top: 293.17px;
+	overflow: visible;
+}
+#adu {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#adv {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#adw {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 1326px;
+	top: 559px;
+	overflow: visible;
+}
+#adx {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 1326px;
+	top: 559px;
+	overflow: visible;
+}
+#ady {
+	position: absolute;
+	width: 1846px;
+	height: 929px;
+	left: 43px;
+	top: 40px;
+	display: none;
+	overflow: visible;
+}
+#adz {
+	position: absolute;
+	width: 509px;
+	height: 537px;
+	left: 289px;
+	top: 232px;
+	overflow: visible;
+}
+#aea {
+	position: absolute;
+	width: 682px;
+	height: 314px;
+	left: 1164px;
+	top: 343px;
+	overflow: visible;
+}
+#aeb {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#aec {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#aed {
+	position: absolute;
+	width: 210px;
+	height: 214px;
+	left: 1123px;
+	top: 715px;
+	overflow: visible;
+}
+#aee {
+	position: absolute;
+	width: 214px;
+	height: 218px;
+	left: 1123px;
+	top: 711px;
+	overflow: visible;
+}
+#aef {
+	position: absolute;
+	width: 325px;
+	height: 640px;
+	left: 798px;
+	top: 180px;
+	overflow: visible;
+}
+#aeg {
+	position: absolute;
+	width: 325px;
+	height: 640px;
+	left: 798px;
+	top: 180px;
+	overflow: visible;
+}
+#aeh {
+	position: absolute;
+	width: 325px;
+	height: 640px;
+	left: 798px;
+	top: 180px;
+	overflow: visible;
+}
+#aei {
+	position: absolute;
+	width: 325px;
+	height: 640px;
+	left: 798px;
+	top: 180px;
+	overflow: visible;
+}
+#aej {
+	position: absolute;
+	width: 325px;
+	height: 640px;
+	left: 798px;
+	top: 180px;
+	overflow: visible;
+}
+#aek {
+	position: absolute;
+	width: 325px;
+	height: 640px;
+	left: 798px;
+	top: 180px;
+	overflow: visible;
+}
+#ael {
+	position: absolute;
+	width: 1837px;
+	height: 820px;
+	left: 43px;
+	top: 40px;
+	display: none;
+	overflow: visible;
+}
+#aem {
+	position: absolute;
+	width: 509px;
+	height: 537px;
+	left: 289px;
+	top: 232px;
+	overflow: visible;
+}
+#aen {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#aeo {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#aep {
+	position: absolute;
+	width: 714px;
+	height: 329px;
+	left: 1123px;
+	top: 314px;
+	overflow: visible;
+}
+#aeq {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 1577px;
+	top: 557px;
+	overflow: visible;
+}
+#aer {
+	position: absolute;
+	width: 325px;
+	height: 640px;
+	left: 798px;
+	top: 180px;
+	overflow: visible;
+}
+#aes {
+	position: absolute;
+	width: 325px;
+	height: 640px;
+	left: 798px;
+	top: 180px;
+	overflow: visible;
+}
+#aet {
+	position: absolute;
+	width: 325px;
+	height: 640px;
+	left: 798px;
+	top: 180px;
+	overflow: visible;
+}
+#aeu {
+	position: absolute;
+	width: 325px;
+	height: 640px;
+	left: 798px;
+	top: 180px;
+	overflow: visible;
+}
+#aev {
+	position: absolute;
+	width: 325px;
+	height: 640px;
+	left: 798px;
+	top: 180px;
+	overflow: visible;
+}
+#aew {
+	position: absolute;
+	width: 325px;
+	height: 640px;
+	left: 798px;
+	top: 180px;
+	overflow: visible;
+}
+#aex {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	display: none;
+	overflow: visible;
+}
+#aey {
+	position: absolute;
+	width: 1920px;
+	height: 769px;
+	left: 0px;
+	top: 311px;
+	overflow: visible;
+}
+#aez {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#afa {
+	position: absolute;
+	width: 1320px;
+	height: 240px;
+	left: 422px;
+	top: 71px;
+	overflow: visible;
+}
+#afb {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#afc {
+	position: absolute;
+	width: 1320px;
+	height: 240px;
+	left: 422px;
+	top: 71px;
+	overflow: visible;
+}
+#afd {
+	position: absolute;
+	width: 1920px;
+	height: 1066px;
+	left: 0px;
+	top: 14px;
+	overflow: visible;
+}
+#afe {
+	position: absolute;
+	width: 1320px;
+	height: 240px;
+	left: 422px;
+	top: 71px;
+	overflow: visible;
+}
+#aff {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#afg {
+	position: absolute;
+	width: 1320px;
+	height: 240px;
+	left: 422px;
+	top: 71px;
+	overflow: visible;
+}
+#afh {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#afi {
+	position: absolute;
+	width: 1320px;
+	height: 240px;
+	left: 422px;
+	top: 71px;
+	overflow: visible;
+}
+#afj {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 1663px;
+	top: 211px;
+	overflow: visible;
+}
+#afk {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 1663px;
+	top: 211px;
+	overflow: visible;
+}
+#afl {
+	position: absolute;
+	width: 1846px;
+	height: 906px;
+	left: 37px;
+	top: 67px;
+	display: none;
+	overflow: visible;
+}
+#afm {
+	position: absolute;
+	width: 1846px;
+	height: 854px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#afn {
+	border: 0;
+	left: 137px;
+	top: 50px;
+	position: absolute;
+	overflow: visible;
+	width: 1587px;
+	height: 140px;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	color: rgba(112,112,112,1);
+}
+#afo {
+	position: absolute;
+	width: 33px;
+	height: 782px;
+	left: 1742px;
+	top: 24px;
+	overflow: visible;
+}
+#afp {
+	position: absolute;
+	width: 30px;
+	height: 120px;
+	left: 1744px;
+	top: 30px;
+	overflow: visible;
+}
+#afq {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 1419px;
+	top: 706px;
+	overflow: visible;
+}
+#afr {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 1419px;
+	top: 706px;
+	overflow: visible;
+}
+#afs {
+	position: absolute;
+	width: 1920px;
+	height: 847px;
+	left: 0px;
+	top: 233px;
+	display: none;
+	overflow: visible;
+}
+#aft {
+	position: absolute;
+	width: 1920px;
+	height: 769px;
+	left: 0px;
+	top: 78px;
+	overflow: visible;
+}
+#afu {
+	position: absolute;
+	width: 396.296px;
+	height: 600px;
+	left: 297px;
+	top: 0px;
+	overflow: visible;
+}
+#afv {
+	position: absolute;
+	width: 396.296px;
+	height: 600px;
+	left: 297px;
+	top: 0px;
+	overflow: visible;
+}
+#afw {
+	position: absolute;
+	width: 396.296px;
+	height: 600px;
+	left: 1168.037px;
+	top: 0px;
+	overflow: visible;
+}
+#afx {
+	position: absolute;
+	width: 396.296px;
+	height: 600px;
+	left: 1168.037px;
+	top: 0px;
+	overflow: visible;
+}
+#afy {
+	position: absolute;
+	width: 396px;
+	height: 600px;
+	left: 697px;
+	top: 0px;
+	overflow: visible;
+}
+#afz {
+	position: absolute;
+	width: 466px;
+	height: 600px;
+	left: 697px;
+	top: 0px;
+	overflow: visible;
+}
+
+#aga {
+	position: absolute;
+	width: 1751px;
+	height: 878px;
+	left: 85px;
+	top: 135px;
+	display: none;
+	overflow: visible;
+}
+#agb {
+	position: absolute;
+	width: 1751px;
+	height: 810px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#agc {
+	position: absolute;
+	width: 1476px;
+	height: 579px;
+	left: 157px;
+	top: 95px;
+	overflow: visible;
+}
+#agc2 {
+	position: absolute;
+	width: 1476px;
+	height: 579px;
+	left: 157px;
+	top: 195px;
+	overflow: visible;
+}
+#agd {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 1476px;
+	height: 550px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+#age {
+	border: 0;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 1477px;
+	height: 2184px;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: rgba(112,112,112,1);
+}
+#agf {
+	position: absolute;
+	width: 665px;
+	height: 74px;
+	left: 157px;
+	top: 674px;
+	overflow: visible;
+}
+#agg {
+	position: absolute;
+	width: 665px;
+	height: 74px;
+	left: 157px;
+	top: 674px;
+	overflow: visible;
+}
+#agh {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 1424px;
+	top: 678px;
+	overflow: visible;
+}
+#agi {
+	position: absolute;
+	width: 1751px;
+	height: 878px;
+	left: 85px;
+	top: 135px;
+	display: none;
+	overflow: visible;
+}
+#agj {
+	position: absolute;
+	width: 1751px;
+	height: 810px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#agk {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 1424px;
+	top: 678px;
+	overflow: visible;
+}
+#agl {
+	border: 0;
+	left: 209px;
+	top: 146px;
+	position: absolute;
+	overflow: visible;
+	width: 282px;
+	height: 90px;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	color: rgba(112,112,112,1);
+}
+#agm {
+	border: 0;
+	left: 209px;
+	top: 446px;
+	position: absolute;
+	overflow: visible;
+	width: 282px;
+	height: 75px;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	color: rgba(112,112,112,1);
+}
+#agn {
+	border: 0;
+	left: 209px;
+	top: 296px;
+	position: absolute;
+	overflow: visible;
+	width: 282px;
+	height: 90px;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	color: rgba(112,112,112,1);
+}
+#ago {
+	border: 0;
+	left: 513px;
+	top: 146px;
+	position: absolute;
+	overflow: visible;
+	width: 933px;
+	height: 90px;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	color: rgba(112,112,112,1);
+}
+#agp {
+	border: 0;
+	left: 513px;
+	top: 446px;
+	position: absolute;
+	overflow: visible;
+	width: 933px;
+	height: 75px;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	color: rgba(112,112,112,1);
+}
+#agq {
+	border: 0;
+	left: 513px;
+	top: 296px;
+	position: absolute;
+	overflow: visible;
+	width: 933px;
+	height: 90px;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	color: rgba(112,112,112,1);
+}
+
+#agr {
+	position: absolute;
+	width: 1749px;
+	height: 876px;
+	left: 87px;
+	top: 136px;
+	display: none;
+	overflow: visible;
+}
+#ags {
+	position: absolute;
+	width: 1749px;
+	height: 809px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#agt {
+	position: absolute;
+	width: 938px;
+	height: 428px;
+	left: 404px;
+	top: 190px;
+	overflow: visible;
+}
+#agu {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 1422px;
+	top: 676px;
+	overflow: visible;
+}
