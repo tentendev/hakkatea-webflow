@@ -788,7 +788,7 @@ function handleRestartGame() {
 }
 
 function handleShareToFacebook() {
-    const shareUrl = "https://game-center.lucas-futures.synology.me/hakkatea/game.html";
+    const shareUrl = "https://urli.ai/MoqPPXEv";
 
     // 判斷是否支援 Web Share API（行動裝置瀏覽器）
     if (navigator.share) {
